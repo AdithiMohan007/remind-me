@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Don't Forget!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+   <div class="container">
+    <div class="badge">✨ Smart reminder assistant</div>
+
+    <h1>Don't Forget! 📝</h1>
+    <h2>Your brain remembers. We remember the little things. 🧠✨</h2>
+
+    <p>Tell me what you're about to do, and I'll help you remember the important things.</p>
+
+   <input type="text" id="activityInput" placeholder="What are you about to do?">
+   <div class="quick-options">
+    <button onclick="quickStart('trip')">✈️ Trip</button>
+    <button onclick="quickStart('college')">🎓 College</button>
+    <button onclick="quickStart('exam')">📝 Exam</button>
+    <button onclick="quickStart('moving')">🏠 Moving</button>
+</div>
+
+<button onclick="showActivity()">Get Started 🚀</button>
+
+<div id="questions"></div>
+
+<p id="result"></p>
+</div>
+    <script src="script.js"></script>
+
+</body>
+</html>
