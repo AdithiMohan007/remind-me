@@ -369,3 +369,8 @@ function quickStart(activity) {
     document.getElementById("activityInput").value = activity;
     showActivity();
 }
+if ("serviceWorker" in navigator) {
+    window.addEventListener("load", function() {
+        navigator.serviceWorker.register("./service-worker.js");
+    });
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Don't Forget!",
+  "short_name": "Don't Forget",
+  "description": "A smart reminder assistant that helps you remember the little things.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#667eea",
+  "theme_color": "#667eea",
+  "icons": []
+}
